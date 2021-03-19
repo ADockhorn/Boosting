@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Test",
+            "title": "Formelverzeichnis Boosting",
             "content": "Auto-convert markdown files To Posts . fastpages will automatically convert markdown files saved into this directory as blog posts! . You must save your notebook with the naming convention YYYY-MM-DD-*.md. Examples of valid filenames are: . 2020-01-28-My-First-Post.md 2012-09-12-how-to-write-a-blog.md . Resources . Jekyll posts | Example markdown post | . &lt;iframe src=”https://raw.githubusercontent.com/ADockhorn/Boosting–bersicht/main/equations.pdf” width=”100%” height=”100%”&gt; This browser does not support PDFs. Please download the PDF to view it: Download PDF &lt;/iframe&gt; .",
-            "url": "https://adockhorn.github.io/Boosting/2020/01/01/test.html",
-            "relUrl": "/2020/01/01/test.html",
+            "url": "https://adockhorn.github.io/Boosting/boosting/gleichungen/herleitungen/2020/01/01/test.html",
+            "relUrl": "/boosting/gleichungen/herleitungen/2020/01/01/test.html",
             "date": " • Jan 1, 2020"
         }
         
