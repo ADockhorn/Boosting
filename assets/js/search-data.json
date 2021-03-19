@@ -2,6 +2,17 @@
   
     
         "post0": {
+            "title": "Interaktive Lernmaterialien zum Thema Boosting",
+            "content": "",
+            "url": "https://adockhorn.github.io/Boosting/fastpages/jupyter/boosting/implementation/2021/03/18/boosting-interactive.html",
+            "relUrl": "/fastpages/jupyter/boosting/implementation/2021/03/18/boosting-interactive.html",
+            "date": " • Mar 18, 2021"
+        }
+        
+    
+  
+    
+        ,"post1": {
             "title": "Formelverzeichnis Boosting",
             "content": "Formelverzeichnis . Nachfolgend finden Sie ein ausführliches Formelverzeichnis und eine Übersicht der besprochenen Herleitungen: . Formelverzeichnis Boosting . Ein vergleichbares Formelverzeichnis habe ich bereits während meiner Lehre an der Otto-von-Guericke Universität in Magdeburg erstellt. Begleitend zu meiner Lehrvertretung der Vorlesung “Computational Intelligence in Games” entstand dieses in Zusammenarbeit mit Teilnehmer:innen der Lehrveranstaltung. Das Ergebnis können Sie unter folgenden Link einsehen: . Formelverzeichnis Computational Intelligence in Games .",
             "url": "https://adockhorn.github.io/Boosting/boosting/gleichungen/herleitungen/2021/03/13/boosting-formelverzeichnis.html",
