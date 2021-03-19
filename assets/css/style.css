@@ -427,9 +427,9 @@ pre code { font-size: 15px !important; }
 /* Clear floats after image containers */
 .row::after { content: ""; clear: both; display: table; }
 
-.column > img { border: black; border-style: solid; padding: 5px; border-width: thin; filter: url(filters.svg#grayscale); /* Firefox 3.5+ */ filter: gray; /* IE6-9 */ -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */ }
+.column > a > img { border: black; border-style: solid; padding: 5px; border-width: thin; filter: url(filters.svg#grayscale); /* Firefox 3.5+ */ filter: gray; /* IE6-9 */ -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */ }
 
-.column > img:hover { filter: none; -webkit-filter: none; }
+.column > a > img:hover { filter: none; -webkit-filter: none; }
 
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
