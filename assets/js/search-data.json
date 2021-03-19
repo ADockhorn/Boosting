@@ -1,11 +1,22 @@
 {
   
+    
+        "post0": {
+            "title": "Test",
+            "content": "Auto-convert markdown files To Posts . fastpages will automatically convert markdown files saved into this directory as blog posts! . You must save your notebook with the naming convention YYYY-MM-DD-*.md. Examples of valid filenames are: . 2020-01-28-My-First-Post.md 2012-09-12-how-to-write-a-blog.md . Resources . Jekyll posts | Example markdown post | .",
+            "url": "https://adockhorn.github.io/Boosting/2020/01/01/test.html",
+            "relUrl": "/2020/01/01/test.html",
+            "date": " • Jan 1, 2020"
+        }
+        
+    
+  
 
   
   
 
   
-      "page1": {
+      ,"page1": {
           "title": "About Me",
           "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
           "url": "https://adockhorn.github.io/Boosting/about/",
