@@ -421,6 +421,12 @@ table th { text-align: center !important; }
 
 pre code { font-size: 15px !important; }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column { float: left; width: 33.33%; padding: 5px; }
+
+/* Clear floats after image containers */
+.row::after { content: ""; clear: both; display: table; }
+
 /*-----------------------------------*/
 /*----- ADD YOUR STYLES BELOW -------*/
 .language-python + .language-plaintext { border-left: 1px solid grey; margin-left: 1rem !important; }
