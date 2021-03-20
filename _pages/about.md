@@ -4,8 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+Diese Website begleitet meine Bewerbung an der Universität Rostock und ist daher thematisch sehr begrenzt. Auf meiner **[privaten Homepage](https://adockhorn.github.io/)** finden Sie weitere Informationen zu mir und meiner aktuellen Forschung.
