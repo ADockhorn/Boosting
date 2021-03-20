@@ -48,7 +48,7 @@ author: "Alexander Dockhorn"
 
 # Generelle Bücher zum Thema "Intelligent Data Analytics"
 
-Die folgenden beiden Bücher repräsentieren gut verständliche Einführungen in Methoden der künstlichen Intelligenz und der intelligenten Datenanalyse. Da keine Web-Version verfügbar ist, kann ich nur auf die Universitätsbibliothek verweisen.
+Die folgenden beiden Bücher repräsentieren gut verständliche Einführungen in Methoden der künstlichen Intelligenz und der intelligenten Datenanalyse. Da keine Web-Version verfügbar ist, verweise ich auf die örtliche Universitätsbibliothek, welche beide Bücher vorrätig hat.
 
 - Russell, J. S., & Norvig, P. (2003). Artificial Intelligence: A Modern Approach. In Artificial Intelligence. https://doi.org/10.1017/S0269888900007724
     - [https://find.ub.uni-rostock.de/id%7Bcolon%7D359882528](https://find.ub.uni-rostock.de/id%7Bcolon%7D359882528)
