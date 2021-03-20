@@ -38,17 +38,6 @@
   
 
   
-      ,"page1": {
-          "title": "About Me",
-          "content": "Diese Website begleitet meine Bewerbung an der Universität Rostock und ist daher thematisch sehr begrenzt. Auf meiner privaten Homepage finden Sie weitere Informationen zu mir und meiner aktuellen Forschung. .",
-          "url": "https://adockhorn.github.io/Boosting/about/",
-          "relUrl": "/about/",
-          "date": ""
-      }
-      
-  
-
-  
 
   
   
@@ -70,7 +59,7 @@
   
 
   
-      ,"page10": {
+      ,"page9": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://adockhorn.github.io/Boosting/robots.txt",
