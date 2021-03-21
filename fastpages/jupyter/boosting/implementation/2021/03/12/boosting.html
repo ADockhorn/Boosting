@@ -154,7 +154,7 @@ window.onload = wrap_img;
 <h1 id="Boosting">
 <a class="anchor" href="#Boosting" aria-hidden="true"><span class="octicon octicon-link"></span></a>Boosting<a class="anchor-link" href="#Boosting"> </a>
 </h1>
-<p>Dieses Jupyter Notebook leitet durch die Entwicklung eines Adaboost Klassifikators und begleitet meinen Vortrag 
+<p>Dieses Jupyter Notebook leitet durch die Entwicklung eines Adaboost Klassifikators und begleitet meinen Vortrag.
 Sie können eine interaktive Version dieses Notebooks starten, indem sie auf die Buttons launch Binder oder Open in Colab klicken.</p>
 
 </div>
@@ -201,8 +201,8 @@ Sie können eine interaktive Version dieses Notebooks starten, indem sie auf die
 <a class="anchor" href="#Funktion-zur-Visualisierung-der-Ergebnisse" aria-hidden="true"><span class="octicon octicon-link"></span></a>Funktion zur Visualisierung der Ergebnisse<a class="anchor-link" href="#Funktion-zur-Visualisierung-der-Ergebnisse"> </a>
 </h2>
 <p>Um die Ergebnisse gelernter Klassifikatoren zu visualisieren, wird die folgende Funktion bereitgestellt.
-Hierbei wird davon ausgegangen, dass der Datensatz aus 2 dimensionalen Punkten besteht, welche jeweils durch
-+1 oder -1 gelabelet wurden.</p>
+Hierbei wird davon ausgegangen, dass der Datensatz aus 2-dimensionalen Punkten besteht, welchen die
+Ziellabel +1 oder -1 zugewiesen werden sollen.</p>
 <p>Positiv zu klassifizierende Punkte werden durch ein rotes Plus-Zeichen dargestellt, wohingehen negativ zu 
 klassifizierende Punkte durch einen blauen Kreis dargestellt werden. Optional kann die Ausgabe eines Klassifikators
 durch die rote oder blaue Hinterlegung des Hintergrunds dargestellt werden, wohingegen vom Klassifikator falsch 
@@ -414,7 +414,7 @@ Unterscheidung der beiden Klassen verwendet werden.</p>
 </h2>
 <p>Wir hatten bereits in einer vorherigen Veranstaltung die Implementierung von Entscheidungsbäumen thematisiert.
 Dieses mal greifen wir auf die Implementierung von scikit-learn zurück.</p>
-<p>Eine Übersicht aller Parameter finden sie hier:</p>
+<p>Eine Übersicht aller Parameter ist auf der folgenden Website zu finden:</p>
 <p><a href="https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier">https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier</a></p>
 
 </div>
@@ -462,8 +462,8 @@ Dieses mal greifen wir auf die Implementierung von scikit-learn zurück.</p>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Sklearn erlaubt die Begrenzung des Entscheidungsbaums anhang von Schwellenwerten.
-Um einen Entscheidungsstumpf zu lernen reduzieren wir die maximale Tiefe auf 1.
+<p>Sklearn erlaubt die Begrenzung des Entscheidungsbaums anhand von Schwellenwerten.
+Um einen Entscheidungsstumpf zu lernen, reduzieren wir die maximale Tiefe auf 1.
 Beachte die Fehlklassifikationen des Entscheidungsstumpfs im nachfolgenden Plot.</p>
 
 </div>
@@ -545,7 +545,7 @@ die Gewichte unserer Trainingsdaten und den Fehler des Klassifikators speichert.
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Als nächstes fügen wir unserer AdaBoost-Klasse die Trainingsfunktionen hinzu.
+<p>Als Nächstes fügen wir unserer AdaBoost-Klasse die Trainingsfunktionen hinzu.
 Hierbei überprüft die _check_X_y funktion ob die Ziellabel in der Menge -1 und +1 entsprechen.
 Die fit Funktion definiert den Trainingsablauf wie wir ihn kennengelernt haben.</p>
 
@@ -643,7 +643,7 @@ Die fit Funktion definiert den Trainingsablauf wie wir ihn kennengelernt haben.<
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Als nächstes fügen wir die Klassifikationsfunktionen hinzu.
+<p>Als Nächstes fügen wir die Klassifikationsfunktionen hinzu.
 Predict_proba gibt die graduelle Ausgabe des Ensembles aus, wohingegen predict die Labels -1 und 1 ausgibt.</p>
 
 </div>
@@ -817,7 +817,7 @@ auf die ersten t Klassifikatoren reduziert.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>In der folgenden Darstellung zeigen die Plots in der ersten Reihe die gelernten Entscheidungsstümpfe,
 wohingegen die zweite Reihe den jeweils aktuellen Zustand des Ensembles darstellt.
-Von links nach rechts werden die Zeitschritte 1 bis iter dargestellt.</p>
+Von links nach rechts werden die Zeitschritte 1 bis iters dargestellt.</p>
 
 </div>
 </div>
@@ -1013,8 +1013,8 @@ predict_proba Funktion mit einer weniger schnellen, dafür auch weniger speicher
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Das folgende Beispiel stellt das Ensemble nach 1, 5, 10, 50, 100, 500, 1000, und 5000 Schritten dar.
-Beobachte wie das Ensemble bereits nach 50 Schritten eine grobe Unterteilung der beiden Klassen ermöglicht.
-Insbesondere in den letzten beiden dargestellten Ensemblen (t=1000 und t=5000) zerfallen die sauberen Grenzen
+Man beobachte, wie das Ensemble bereits nach 50 Schritten eine grobe Unterteilung der beiden Klassen ermöglicht.
+Insbesondere in den letzten beiden dargestellten Ensembles (t=1000 und t=5000) zerfallen die sauberen Grenzen
 des Ensembles und immer mehr Ausreißer werden durch das Ensemble abgebildet.</p>
 <p>Durch die Verknüpfung einzelner stark gewichteter Entscheidungsstümpfe entsteht ein Flickenteppich aus
 positiv und negativ zu klassifizierenden Bereichen.</p>
@@ -1123,10 +1123,10 @@ Fehler erklären. Diese Anpassung wird deutlich, wenn man den binären Fehler un
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Wie auch bei anderen Klassifikatoren, können wir dieses Problem vermeiden, wenn wir den Datensatz
+<p>Wie auch bei anderen Klassifikatoren können wir dieses Problem vermeiden, wenn wir den Datensatz
 zunächst in einen Trainings- und Testdatensatz aufteilen und den Fehler über den Verlauf der Iterationen
 auf diesen beiden Datensätzen beobachten.</p>
-<p>Hierfür teilen wir zunächst den Datensatz in zwei Mengen auf wobei 70% der Beispiele als Trainingsdaten
+<p>Hierfür teilen wir zunächst den Datensatz in zwei Mengen auf, wobei 70% der Beispiele als Trainingsdaten
 und 30% als Testdaten verwendet werden. Nachfolgend trainieren wir AdaBoost auf den Trainingsdaten.</p>
 
 </div>
@@ -1172,7 +1172,7 @@ und 30% als Testdaten verwendet werden. Nachfolgend trainieren wir AdaBoost auf 
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Als nächstes messen wir den binären Fehler der Trainings- und Testdaten per Iteration und stellen diese
+<p>Als Nächstes messen wir den binären Fehler der Trainings- und Testdaten per Iteration und stellen diese
 in gewohnter Weise grafisch dar.</p>
 
 </div>
@@ -1293,7 +1293,7 @@ In diesem Fall können wir das Training vorzeitig abbrechen.</p>
 Ziel ist es, den Trainingsfehler <strong>und</strong> den Testfehler zu minimieren.
 Zumeist steigt der Testfehler aber wieder an, während der Trainingsfehler weiter sinkt.
 Im folgenden Beispiel werden die Zeitunkte 20, 30, 40 und 450 miteinander verglichen.</p>
-<p>Durch das Hinzufügen weiterer Klassifikatoren in das Ensemble, können zunehmend mehr Trainingsdaten
+<p>Durch das Hinzufügen weiterer Klassifikatoren in das Ensemble können zunehmend mehr Trainingsdaten
 richtig klassifiziert werden. Hierfür steigt die Komplexität der Entscheidungsgrenze des Ensembles
 und nimmt langsam die Form der Datenverteilung an. Gegeben der folgenden 4 Bilder scheint 40 ein
 interessanter Abbruchpunkt zu sein.</p>
